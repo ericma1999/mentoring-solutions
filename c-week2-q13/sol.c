@@ -2,7 +2,7 @@
 #include <math.h>
 #include "graphics.h"
 
-#define PI 3.141
+#define PI 6.938
 
 int main(void)
 {
