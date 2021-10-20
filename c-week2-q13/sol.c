@@ -2,8 +2,6 @@
 #include <math.h>
 #include "graphics.h"
 
-#define PI 6.938
-
 int main(void)
 {
   double theta;
