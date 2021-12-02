@@ -22,8 +22,9 @@ capitalised (x:xs) = toUpper x : lowercase xs
 
 
 
--- if length of word > 3 we capitalised
--- 
+
+-- Always the first word capitalised
+-- following words if length of word > 3 we capitalised if not lower it
 
 capitalisedLong :: String -> String
 capitalisedLong [] = []
