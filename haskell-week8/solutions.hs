@@ -40,6 +40,9 @@ title :: [String] -> [String]
 title [] = []
 title (x : xs) = (capitalised x) : (titleCapitalised xs)
 
+-- list imperative solution
+-- title list = [if (length x > 3 || x == head list) then capitalised x else lowercase x |x <- list]
+
 
 
 title ["and", "bOSun", "ANd", "thE", "BriDGe"]
